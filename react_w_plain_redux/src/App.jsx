@@ -2,6 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import CakeExample from './components/CakeExample';
 import HooksCakeExample from './components/HooksCakeExample';
+import IceCreamExample from './components/IceCreamExample';
 import store from './redux/store';
 
 export default () => (
@@ -9,6 +10,7 @@ export default () => (
     <div>
       <CakeExample />
       <HooksCakeExample />
+      <IceCreamExample />
     </div>
   </Provider>
 );
