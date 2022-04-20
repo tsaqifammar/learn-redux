@@ -4,6 +4,7 @@ import CakeExample from './components/CakeExample';
 import CanBeEitherExample from './components/CanBeEitherExample';
 import HooksCakeExample from './components/HooksCakeExample';
 import IceCreamExample from './components/IceCreamExample';
+import UserExample from './components/UserExample';
 import store from './redux/store';
 
 export default () => (
@@ -14,6 +15,7 @@ export default () => (
       <IceCreamExample />
       <CanBeEitherExample isCake={true} />
       <CanBeEitherExample isCake={false} />
+      <UserExample />
     </div>
   </Provider>
 );
