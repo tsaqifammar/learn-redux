@@ -1,6 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import CakeExample from './components/CakeExample';
+import CanBeEitherExample from './components/CanBeEitherExample';
 import HooksCakeExample from './components/HooksCakeExample';
 import IceCreamExample from './components/IceCreamExample';
 import store from './redux/store';
@@ -11,6 +12,8 @@ export default () => (
       <CakeExample />
       <HooksCakeExample />
       <IceCreamExample />
+      <CanBeEitherExample isCake={true} />
+      <CanBeEitherExample isCake={false} />
     </div>
   </Provider>
 );
